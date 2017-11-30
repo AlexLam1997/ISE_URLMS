@@ -12,6 +12,6 @@ script:
   - ant clean
 
 #notifications
-#notifications:
- # email: false
- # slack: 321-group-5:TREpBvfUTMyUP9OtVm84Qwu1
+notifications:
+  email: false
+  slack: 321-group-5:TREpBvfUTMyUP9OtVm84Qwu1
