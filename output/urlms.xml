@@ -1,0 +1,48 @@
+<ca.mcgill.ecse321.labmanagementsystem.model.URLMS id="1">
+  <staffs id="2">
+    <staff id="3">
+      <name>alex lam</name>
+      <idNumber>1234</idNumber>
+      <role>Research Associate</role>
+      <weeklyProgressUpdates id="4"/>
+      <uRLMS reference="1"/>
+    </staff>
+    <staff id="5">
+      <name>alex lam</name>
+      <idNumber>1</idNumber>
+      <role>Research Associate</role>
+      <weeklyProgressUpdates id="6"/>
+      <uRLMS reference="1"/>
+    </staff>
+    <staff id="7">
+      <name>alex lam</name>
+      <idNumber>1234</idNumber>
+      <role>Research Associate</role>
+      <weeklyProgressUpdates id="8"/>
+      <uRLMS reference="1"/>
+    </staff>
+    <staff id="9">
+      <name>kendrick lam</name>
+      <idNumber>4321</idNumber>
+      <role>Research Associate</role>
+      <weeklyProgressUpdates id="10"/>
+      <uRLMS reference="1"/>
+    </staff>
+    <staff id="11">
+      <name>Kristina lam</name>
+      <idNumber>456</idNumber>
+      <role>Research Associate</role>
+      <weeklyProgressUpdates id="12"/>
+      <uRLMS reference="1"/>
+    </staff>
+  </staffs>
+  <supplies id="13"/>
+  <equipment id="14"/>
+  <weeklyProgressUpdates id="15"/>
+  <reports id="16"/>
+  <labExpenses id="17"/>
+  <fundingAccount id="18">
+    <balance>0</balance>
+    <uRLMS reference="1"/>
+  </fundingAccount>
+</ca.mcgill.ecse321.labmanagementsystem.model.URLMS>

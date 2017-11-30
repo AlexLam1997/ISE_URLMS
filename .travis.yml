@@ -1,0 +1,14 @@
+#before script
+before_install: cd Desktop
+
+#language
+language: java
+
+#jdk version
+jdk:
+  - oraclejdk8
+
+#notifications
+notifications:
+  email: false
+  slack: 321-group-5:TREpBvfUTMyUP9OtVm84Qwu1

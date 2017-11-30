@@ -1,0 +1,115 @@
+namespace ca.mcgill.ecse321.labmanagementsystem.model; 
+
+class URLMS {
+
+  1 <@>- * Staff;
+  1 <@>- * Supply;
+  1 <@>- * Equipment;
+  1 <@>- * WeeklyProgressUpdate;
+  1 <@>- * Report;
+  1 <@>- * LabExpense;
+  1 -- 1 FundingAccount; 
+  
+  public URLMS(){
+    staffs = new ArrayList();
+    supplies = new ArrayList();
+    equipment = new ArrayList();
+    weeklyProgressUpdates = new ArrayList();
+    reports = new ArrayList();
+    labExpenses = new ArrayList();
+    fundingAccount = new FundingAccount(this);
+    }
+}
+  
+ class Equipment {
+   int quantity;
+   String type;
+ }
+  
+ class FundingAccount {
+ 	String name; 
+ 	int balance; 
+ 	1 -- * LabExpense;
+   
+   public FundingAccount(URLMS urlms){
+     this.uRLMS = urlms;
+   }
+ }
+  
+ class Staff {
+   String name;
+   String idNumber;
+   String role;
+   1 -- * WeeklyProgressUpdate;
+ }
+  
+ class LabExpense {
+   String type;
+   String dateMade;
+   int amount;
+   * -- 1 Report;
+ }
+  
+ class Report {
+ }
+  
+ class Supply {
+   int quantity;
+   String type;
+ }
+  
+ class WeeklyProgressUpdate {
+ 	String label;
+ 	String dateMade; 
+ 	String progressUpdate; 
+ }//$?[End_of_model]$?
+
+class URLMS
+{
+  position 241 14 109 41;
+  position.association Supply__URLMS 100,58 45,0;
+  position.association URLMS__WeeklyProgressUpdate 82,58 62,0;
+  position.association Report__URLMS 65,58 52,0;
+  position.association Staff__URLMS 124,58 30,0;
+  position.association Equipment__URLMS 0,46 51,0;
+  position.association LabExpense__URLMS 25,58 49,0;
+  position.association FundingAccount__URLMS 12,58 64,0;
+}
+
+class Equipment
+{
+  position 11 123 109 41;
+}
+
+class FundingAccount
+{
+  position 131 123 119 41;
+  position.association FundingAccount__LabExpense 61,41 51,0;
+}
+
+class Staff
+{
+  position 505 122 109 41;
+  position.association Staff__WeeklyProgressUpdate 50,41 94,0;
+}
+
+class LabExpense
+{
+  position 192 216 109 41;
+  position.association LabExpense__Report 50,0 30,41;
+}
+
+class Report
+{
+  position 255 122 109 41;
+}
+
+class Supply
+{
+  position 384 123 109 41;
+}
+
+class WeeklyProgressUpdate
+{
+  position 461 213 162 41;
+}

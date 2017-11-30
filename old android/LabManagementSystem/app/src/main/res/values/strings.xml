@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"Lab Management System "</string>
+    <string name="action_settings">Settings</string>
+    <string name="newstaffname_hint">Full Name</string>
+    <string name="newstaffidnumber_hint">Employee Number</string>
+    <string name="newstaffrole_hint">Role</string>
+    <string name="newstaff_button">Add Staff</string>
+    <string name="addstaff_button">add Staff</string>
+</resources>
