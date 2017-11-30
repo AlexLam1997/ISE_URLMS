@@ -61,9 +61,10 @@
             <classpath refid="321project.classpath"/>
         </java>
     </target>
-    <target name="AllTests">
+   <target name="AllTests">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
+        <mkdir dir="${junit.output.dir}/html"/>
+        <junit fork="yes" printsummary="withOutAndErr" showoutput="yes" haltonfailure="yes">
             <formatter type="xml"/>
             <test name="tests.AllTests" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
@@ -75,7 +76,8 @@
             <fileset dir="${junit.output.dir}">
                 <include name="TEST-*.xml"/>
             </fileset>
-            <report format="frames" todir="${junit.output.dir}"/>
+            <report format="noframes" todir="${junit.output.dir}/html"/>
         </junitreport>
     </target>
 </project>
+

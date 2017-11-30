@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="9" hostname="Toshiba-PC" name="tests.AllTests" skipped="0" tests="23" time="0.422" timestamp="2017-11-30T22:08:54">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes" />
+    <property name="env.COMPUTERNAME" value="TOSHIBA-PC" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="env.HOMEPATH" value="\Users\Toshiba" />
+    <property name="user.name" value="Toshiba" />
+    <property name="user.language" value="en" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="321project" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\Toshiba\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="C:/Users/Toshiba/Desktop/Eclipse Oxygen/eclipse/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CA" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_121" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\Toshiba\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Workspace\Github\ISE_Project\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env.QUARTUS_ROOTDIR" value="C:\intelFPGA_lite\17.1\quartus" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="ant.file.type.321project" value="file" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Toshiba" />
+    <property name="ant.library.dir" value="C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_112" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\Toshiba\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.file.321project" value="C:\Workspace\Github\ISE_Project\build.xml" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Toshiba" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.QSYS_ROOTDIR" value="C:\intelFPGA_lite\17.1\quartus\sopc_builder\bin" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Java\jdk1.8.0_112\bin;C:\Program Files\apache-ant-1.10.1\bin;C:\Users\Toshiba\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Toshiba\AppData\Local\Programs\Python\Python36-32\;C:\Users\Toshiba\AppData\Roaming\npm;C:\intelFPGA_lite\17.1\modelsim_ase\win32aloem;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.class.path" value="C:\Workspace\Github\ISE_Project\bin;C:\Workspace\Github\ISE_Project\lib\jdatepicker-1.3.4.jar;C:\Workspace\Github\ISE_Project\lib\xmlpull-1.1.3.1.jar;C:\Workspace\Github\ISE_Project\lib\xpp3_min-1.1.4c.jar;C:\Workspace\Github\ISE_Project\lib\xstream-1.4.7.jar;C:\Workspace\Github\ISE_Project\lib\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Workspace\Github\ISE_Project\lib\junit.jar;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Workspace\Github\ISE_Project\junit\TEST-tests.AllTests.xml crashfile=C:\Workspace\Github\ISE_Project\junitvmwatcher500258536250575513.properties propsfile=C:\Workspace\Github\ISE_Project\junit5812672012101206872.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\TOSHIBA-PC" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.OneDrive" value="C:\Users\Toshiba\OneDrive" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="env.PROCESSOR_REVISION" value="2a07" />
+    <property name="java.io.tmpdir" value="C:\Users\Toshiba\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Workspace\Github\ISE_Project" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Toshiba\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Java\jdk1.8.0_112\bin;C:\Program Files\apache-ant-1.10.1\bin;C:\Users\Toshiba\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Toshiba\AppData\Local\Programs\Python\Python36-32\;C:\Users\Toshiba\AppData\Roaming\npm;C:\intelFPGA_lite\17.1\modelsim_ase\win32aloem;C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse;" />
+    <property name="basedir" value="C:\Workspace\Github\ISE_Project" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\Toshiba\Desktop\Eclipse Oxygen\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+    <property name="env.USERNAME" value="Toshiba" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="Toshiba-PC" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="cleanbefore,build,AllTests,junitreport,cleanafter" />
+    <property name="env.SOPC_KIT_NIOS2" value="C:\intelFPGA_lite\17.1\nios2eds" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="tests.TestStaffController" name="testAddStaffEmpty" time="0.195" />
+  <testcase classname="tests.TestStaffController" name="testCreateStaff" time="0.033" />
+  <testcase classname="tests.TestStaffController" name="testRemoveStaff" time="0.013" />
+  <testcase classname="tests.TestStaffController" name="testCreateStaffEmpty" time="0.005" />
+  <testcase classname="tests.TestStaffController" name="testCreateStaffSpaces" time="0.004" />
+  <testcase classname="tests.TestPersistence" name="test" time="0.014" />
+  <testcase classname="tests.TestEquipmentController" name="testAddEquipmentEmptyInput" time="0.004" />
+  <testcase classname="tests.TestEquipmentController" name="testRemoveMoreThanContainsEquip" time="0.008" />
+  <testcase classname="tests.TestEquipmentController" name="testRemoveEquipment" time="0.006" />
+  <testcase classname="tests.TestEquipmentController" name="testRemoveNonExistingEquip" time="0.003" />
+  <testcase classname="tests.TestEquipmentController" name="testListEquip" time="0.006">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestEquipmentController.testListEquip(TestEquipmentController.java:132)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestEquipmentController" name="testAddEquipmentDuplicate" time="0.009" />
+  <testcase classname="tests.TestEquipmentController" name="testAddEquipmentAlphabeticalInput" time="0.003" />
+  <testcase classname="tests.TestEquipmentController" name="testRemoveEquipNonNumericaInput" time="0.006" />
+  <testcase classname="tests.TestEquipmentController" name="testAddEquipment" time="0.005" />
+  <testcase classname="tests.TestExpenseController" name="testaddExpense" time="0.003">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestExpenseController.testaddExpense(TestExpenseController.java:49)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestExpenseController" name="testaddAccount" time="0.003">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestExpenseController.testaddAccount(TestExpenseController.java:39)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestExpenseController" name="testsetReport" time="0.004">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestExpenseController.testsetReport(TestExpenseController.java:70)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestExpenseController" name="testgetReport" time="0.003">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestExpenseController.testgetReport(TestExpenseController.java:65)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestExpenseController" name="testaddDeposit" time="0.004">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestExpenseController.testaddDeposit(TestExpenseController.java:54)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestExpenseController" name="testremoveAccount" time="0.003">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestExpenseController.testremoveAccount(TestExpenseController.java:44)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestExpenseController" name="testmakeReport" time="0.003">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestExpenseController.testmakeReport(TestExpenseController.java:59)
+</failure>
+  </testcase>
+  <testcase classname="tests.TestSupplyController" name="test" time="0.002">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at tests.TestSupplyController.test(TestSupplyController.java:31)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
