@@ -84,8 +84,8 @@ public class TestEquipmentController {
 
 	@Test(expected = InvalidInputException.class)
 	public void testAddEquipmentEmptyInput() throws InvalidInputException {
-		String quantity2=null; 
-		String type2 = null;
+		String quantity2=""; 
+		String type2 = "";
 		ec.addEquipment(type2, quantity2);
 	}
 
