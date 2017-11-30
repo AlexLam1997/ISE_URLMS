@@ -1,5 +1,5 @@
 #before script
-before_install: cd Desktop
+before_install: cd desktop
 
 #language
 language: java
