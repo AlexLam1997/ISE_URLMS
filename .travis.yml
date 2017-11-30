@@ -9,6 +9,7 @@ script:
   - ant build
   - ant AllTests
   - ant junitreport
+  - ant clean
 
 #notifications
 #notifications:
